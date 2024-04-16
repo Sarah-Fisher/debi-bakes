@@ -1,0 +1,346 @@
+/* GENERAL STYLES */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url('http://debi-sue-bakes.local/wp-content/uploads/2024/04/AdobeStock_221096450-scaled.jpeg');
+    background-repeat: none;
+    background-size: cover;
+}
+
+main {
+    width: 75%;
+    margin: auto;
+}
+
+h2, h3, a, li {
+    font-family: 'Coming Soon', cursive;
+}
+
+h1, p {
+    font-family: 'Merriweather', serif;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+p {
+    font-family: "Work Sans", sans-serif;
+}
+
+.row {
+    margin: 0;
+    padding: 10px;
+}
+
+.row a {
+    text-decoration: none;
+    color: rgba(69,104,220,1);
+}
+
+.row a:hover {
+    text-shadow: rgb(128, 117, 231) 1px 0 15px;
+}
+
+/* HEADER AND NAVIGATION STYLES */
+
+.main-header,
+.woocommerce-shop header,
+.single-product header,
+.woocommerce-cart header,
+.woocommerce-checkout header {
+    width: 100%;
+    height: 175px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 9999;
+    padding: 5px 5px 10px 10px;
+}
+
+header div,
+.woocommerce-shop header div,
+.single-product header div,
+.woocommerce-cart header div,
+.woocommerce-checkout header div {
+    height: 95%;
+    width: 100%;
+    flex-grow: 1;
+}
+
+header div img,
+.woocommerce-shop header div img,
+.single-product header div img,
+.woocommerce-cart header div img,
+.woocommerce-checkout header div img
+.woocomerce-account header div img
+.woocommerce img, .woocommerce-page img {
+    width: auto;
+    height: 100%;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+}
+
+.menu li {
+    padding: 5px;
+    background-color: rgb(232,223,245,0.75);
+    margin: 0px 10px 0px 10px;
+    border-radius: 15px;
+}
+
+.menu li:hover {
+    background-color: rgb(232,223,245);
+    border-radius: 15px;
+}
+
+.menu li a {
+    color: #0e0e0e;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.menu li a:hover {
+    text-shadow: rgb(128, 55, 231) 1px 0 15px;
+}
+
+.menu li a:visited {
+    color: #0e0e0e;
+}
+
+/* HOME PAGE MASTHEAD */
+
+.masthead{
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.masthead div{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.masthead h1 {
+    font-size: 7em;
+    text-shadow: rgb(233, 229, 215) 1px 0 10px;
+}
+
+.masthead h2 {
+    font-size: 3em;
+    text-shadow: rgb(218, 234, 246) 5px 0 15px;
+}
+
+
+/* HOME PAGE STORE CONTENT ROW */
+
+.store-row {
+    background-color: #eeeeff;
+    padding: 20px;
+    display: flex;
+}
+
+
+/* HOME PAGE FEATURED POSTS ROW */
+
+.featured-row {
+    background-color: #eeeeff;
+    box-shadow: -6px 7px 11px 6px rgba(0,0,0,0.43);
+    margin-bottom: 10px;
+}
+
+.widgets {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    height: auto;
+    gap: 30px;
+    text-align: center;
+}
+
+.widgets img {
+    border-radius: 15px;
+    display: block;
+    width:  250px;
+    height: 250px;
+    margin: auto;
+    box-shadow: -4px 12px 16px rgba(16, 24, 40, 0.1), -2px 4px 6px rgba(16, 24, 40, 0.05);
+}
+
+.image-container {
+    width: 300px;
+    margin: 10px;
+}
+
+.bakeshop_content {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+/* SECONDARY PAGES */
+
+.masthead_secondary {
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.masthead_secondary div{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.masthead_secondary h1 {
+    font-size: 7em;
+    text-shadow: rgb(233, 229, 215) 1px 0 10px;
+}
+
+.masthead_secondary h2 {
+    font-size: 3em;
+    text-shadow: rgb(218, 234, 246) 5px 0 15px;
+}
+
+
+/* SHOP PAGE */
+
+.shop-masthead{
+    width: 100%;
+    height: 100vh;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+
+  .shop-masthead div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .shop-masthead h1 {
+    font-size: 9em;
+    color:#eeeeff;
+    text-shadow: rgb(31, 30, 28) 1px 0 10px;
+  }
+
+  .shop-body {
+    width: 80%;
+    margin: auto;
+    background-color: #eeeeff;
+    box-shadow: -6px 7px 11px 6px rgba(0,0,0,0.43);
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 30px;
+  }
+
+/* ACCOUNT PAGE */
+
+.general-masthead {
+    padding-top: 200px;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.general-masthead h1 {
+    background-color: #fcf4dd;
+    padding: 15px; 
+    box-shadow: -6px -7px 11px 4px rgba(0,0,0,0.43);
+    font-family: 'Coming Soon';
+    font-weight: 700;
+}
+
+.woocommerce-MyAccount-navigation {
+    background-color: #eeeeff;
+    box-shadow: -6px 7px 11px 6px rgba(0,0,0,0.43);
+    padding: 30px 15px 15px 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 15%;
+}
+
+.woocommerce-MyAccount-navigation ul {
+    list-style: none;
+}
+
+.woocommerce-MyAccount-navigation-link a {
+    text-decoration: none;
+}
+
+.woocommerce-MyAccount-content {
+    background-color: #eeeeff;
+    box-shadow: -6px 7px 11px 6px rgba(0,0,0,0.43);
+    padding: 30px 15px 15px 15px;
+    width: auto;
+    margin: 0px 10px 10px 5px;
+    width: 45%;
+}
+
+/* CART PAGE */
+
+.wp-block-woocommerce-cart {
+    padding-top: 200px;
+    width: 80%;
+    margin: auto;
+    background-color: #eeeeff;
+    box-shadow: -6px 7px 11px 6px rgba(0,0,0,0.43);
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+
+/* CHECK OUT PAGE */
+
+.checkout main {
+    padding-top: 200px;
+    width: 80%;
+    margin: auto;
+    background-color: #eeeeff;
+    box-shadow: -6px 7px 11px 6px rgba(0,0,0,0.43);
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/* PRODUCT PAGE */
+
+.single-product main {
+    padding-top: 200px;
+    width: 80%;
+    margin: auto;
+    background-color: #eeeeff;
+    box-shadow: -6px 7px 11px 6px rgba(0,0,0,0.43);
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+.top-footer {
+    background-color: #daeaf6;
+}
